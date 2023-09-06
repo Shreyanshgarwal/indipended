@@ -1,0 +1,269 @@
+.asain{
+  text-align: center;
+  margin: 5px;
+  display: inline-block;}
+.country{
+  text-align: center;
+  margin: 5px;
+  width: 100px;
+  height: 50px;
+  display: inline-block;}
+body{
+  background-size: cover;}
+a{
+  color:darkblue;
+  font-weight: bold;
+  text-align: center;
+  width: 204px;
+  height: 120px;
+}
+#sri_lanka{
+  background:url(flag-of-Sri-Lanka.png);
+  width: 204px;
+  height: 120px;
+ background-size: cover;}
+#afghanistan{
+  background:url(flag-of-Afghanistan.png);
+  width: 204px;
+  height: 120px;
+ background-size: cover;}
+#armenia{
+  background:url(flag-of-Armenia.png);
+  width: 204px;
+  height: 120px;
+ background-size: cover;}
+#azerbaijan{
+   background:url(flag-of-Azerbaijan.png);
+    width: 204px;
+   height: 120px;
+   background-size: cover;}
+#bahrain{
+ background:url(flag-of-Bahrain.png);
+ width: 204px;
+  height: 120px;
+ background-size: cover;}
+ #bangladesh{
+  background:url(flag-of-Bangladesh.png);
+   width: 204px;
+  height: 120px;
+  background-size: cover;}
+  #bhutan{
+    background:url(flag-of-Bhutan.png);
+    width: 204px;
+    height: 120px;
+    background-size: cover;}
+#brunei{
+  background:url(flag-of-Brunei.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#cambodia{
+  background:url(flag-of-Cambodia.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#china{
+    background:url(flag-of-China.png);
+    width: 204px;
+    height: 120px;
+    background-size: cover;}
+#cyprus{
+  background:url(flag-of-Cyprus.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#georgia{
+ background:url(flag-of-Georgia.png);
+ width: 204px;
+  height: 120px;
+ background-size: cover;}
+ #india{
+  background:url(flag-of-India.png);
+  width: 204px;
+  height: 120px;
+  background-size:cover }
+  #indonesia{
+    background:url(flag-of-Indonesia.png);
+    width: 204px;
+    height: 120px;
+    background-size: cover;}
+#iran{
+  background:url(flag-of-Iran.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#iraq{
+ background:url(flag-of-Iraq.png);
+ width: 204px;
+  height: 120px;
+ background-size: cover;}
+#israel{
+    background:url(flag-of-Israel.png);
+    width: 204px;
+    height: 120px;
+    background-size: cover;}
+#japan{
+  background:url(flag-of-Japan.png);
+  width: 204px;
+  height: 120px;
+    background-size: cover;}
+#jordan{
+  background:url(flag-of-Jordan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#kazakhstan{
+  background:url(flag-of-Kazakhstan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#kuwait{
+  background:url(flag-of-Kuwait.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#kyrgyzstan{
+  background:url(flag-of-Kyrgyzstan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+  #laos{
+    background:url(flag-of-Laos.png);
+    width: 204px;
+    height: 120px;
+    background-size: cover;}
+#lebanon{
+  background:url(flag-of-Lebanon.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#malaysia{
+  background:url(flag-of-Malaysia.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#maldives{
+  background:url(flag-of-Maldives.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#mongolia{
+  background:url(flag-of-Mongolia.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#myanmar{
+  background:url(flag-of-Myanmar.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#nepal{
+  background:url(flag-of-Nepal.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#north_korea{
+  background:url(flag-of-Korea-North.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#oman{
+  background:url(flag-of-Oman.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;} 
+#pakistan{
+  background:url(flag-of-Pakistan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#state_of_palestine{
+  background:url(flag-of-Palestine.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#philippines{
+  background:url(flag-of-Philippines.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#qatar{
+  background:url(flag-of-Qatar.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#russia{
+  background:url(flag-of-Russia.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#saudi_arabia{
+  background:url(flag-of-Saudi-Arabia.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#singapore{
+  background:url(flag-of-Singapore.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#south_korea{
+  background:url(flag-of-Korea-South.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#syria{
+  background:url(flag-of-Syria.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#taiwan{
+  background:url(flag-of-Taiwan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#tajikistan{
+  background:url(flag-of-Tajikistan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#thailand{
+  background:url(flag-of-Thailand.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#timor_leste{
+  background:url(flag-of-Timor-Leste.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#turkey{
+  background:url(flag-of-Turkey.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#turkmenistan{
+  background:url(flag-of-Turkmenistan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#united_arab_emirates{
+  background:url(flag-of-United-Arab-Emirates.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#uzbekistan{
+  background:url(flag-of-Uzbekistan.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#vietnam{
+  background:url(flag-of-Vietnam.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}
+#yemen{
+  background:url(flag-of-Yemen.png);
+  width: 204px;
+  height: 120px;
+  background-size: cover;}

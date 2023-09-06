@@ -1,0 +1,66 @@
+<html>
+<head>
+
+	<title>ASIA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="asia.png">
+<div class="asain">
+    <button class="btn btn-warning country" id="afghanistan"><a href="https://en.wikipedia.org/wiki/Afghanistan">Afghanistan</a></button>
+    <button class="btn btn-warning country" id="armenia"><a href="https://en.wikipedia.org/wiki/Armenia">Armenia</a></button>
+    <button class="btn btn-warning country" id="azerbaijan"><a href="https://en.wikipedia.org/wiki/Azerbaijan">Azerbaijan</a></button> 
+    <button class="btn btn-warning country" id="bahrain"><a href="https://en.wikipedia.org/wiki/Bahrain">Bahrain</a>  </button>
+    <button class="btn btn-warning country" id="bangladesh"><a href="https://en.wikipedia.org/wiki/Bangladesh">Bangladesh</a></button>
+    <button class="btn btn-warning country" id="bhutan"><a href="https://en.wikipedia.org/wiki/Bhutan">Bhutan</a></button>
+    <button class="btn btn-warning country" id="brunei"><a href="https://en.wikipedia.org/wiki/Brunei"> Brunei </a></button>
+    <button class="btn btn-warning country" id="cambodia"><a href="https://en.wikipedia.org/wiki/Cambodia"> Cambodia </a></button>
+    <button class="btn btn-warning country" id="china"><a href="https://en.wikipedia.org/wiki/China"> China </a></button>
+    <button class="btn btn-warning country" id="cyprus"><a href="https://en.wikipedia.org/wiki/Cyprus">Cyprus</a>  </button>
+    <button class="btn btn-warning country" id="georgia"><a href="https://en.wikipedia.org/wiki/Georgia"> Georgia </a></button>
+    <button class="btn btn-warning country" id="india"><a href="https://en.wikipedia.org/wiki/India"> India </a></button>
+    <button class="btn btn-warning country" id="indonesia"><a href="https://en.wikipedia.org/wiki/Indonesia"> Indonesia </a></button>
+    <button class="btn btn-warning country" id="iran"><a href="https://en.wikipedia.org/wiki/Iran"> Iran</a></button>
+    <button class="btn btn-warning country" id="iraq"><a href="https://en.wikipedia.org/wiki/Iraq"> Iraq</a></button>
+    <button class="btn btn-warning country" id="israel"><a href="https://en.wikipedia.org/wiki/Israel">	Israel </a></button>
+    <button class="btn btn-warning country" id="japan"><a href="https://en.wikipedia.org/wiki/Japan"> Japan</a></button>
+    <button class="btn btn-warning country" id="jordan"><a href="https://en.wikipedia.org/wiki/Jordan"> Jordan </a></button>
+    <button class="btn btn-warning country" id="kazakhstan"><a href="https://en.wikipedia.org/wiki/Kazakhstan">	Kazakhstan</a></button>
+    <button class="btn btn-warning country" id="kuwait"><a href="https://en.wikipedia.org/wiki/Kuwait"> Kuwait </a></button>
+    <button class="btn btn-warning country" id="kyrgyzstan"><a href="https://en.wikipedia.org/wiki/Kyrgyzstan">	Kyrgyzstan </a></button>
+    <button class="btn btn-warning country" id="laos"><a href="https://en.wikipedia.org/wiki/Laos">	Laos </a></button>
+    <button class="btn btn-warning country" id="lebanon"><a href="https://en.wikipedia.org/wiki/Lebanon">	Lebanon </a></button>
+    <button class="btn btn-warning country" id="malaysia"><a href="https://en.wikipedia.org/wiki/Malaysia"> Malaysia </a></button>
+    <button class="btn btn-warning country" id="maldives"><a href="https://en.wikipedia.org/wiki/Maldives"> Maldives </a> </button>
+    <button class="btn btn-warning country" id="mongolia"><a href="https://en.wikipedia.org/wiki/Mongolia">Mongolia</a>  </button>
+    <button class="btn btn-warning country" id="myanmar"><a href="https://en.wikipedia.org/wiki/Myanmar">	Myanmar </a></button>
+    <button class="btn btn-warning country" id="nepal"><a href="https://en.wikipedia.org/wiki/Nepal">	Nepal</a></button>
+    <button class="btn btn-warning country" id="north_korea"><a href="https://en.wikipedia.org/wiki/North_Korea"> North Korea</a></button>
+    <button class="btn btn-warning country" id="oman"><a href="https://en.wikipedia.org/wiki/Oman"> Oman </a></button>
+    <button class="btn btn-warning country" id="pakistan"><a href="https://en.wikipedia.org/wiki/Pakistan">Pakistan</a> </button>
+    <button class="btn btn-warning country" id="philippines"><a href="https://en.wikipedia.org/wiki/Philippines"> Philippines </a></button>
+    <button class="btn btn-warning country" id="qatar"><a href="https://en.wikipedia.org/wiki/Qatar">	Qatar</a></button>
+    <button class="btn btn-warning country" id="saudi_arabia"><a href="https://en.wikipedia.org/wiki/Saudi_Arabia">	Saudi Arabia </a></button>
+    <button class="btn btn-warning country" id="singapore"><a href="https://en.wikipedia.org/wiki/Singapore">	Singapore </a></button>
+    <button class="btn btn-warning country" id="south_korea"><a href="https://en.wikipedia.org/wiki/South_Korea"> South Korea </a></button>
+    <button class="btn btn-warning country" id="sri_lanka"><a href="https://en.wikipedia.org/wiki/Sri_Lanka"> Sri Lanka </a></button>
+    <button class="btn btn-warning country" id="state_of_palestine"><a href="https://en.wikipedia.org/wiki/State_of_Palestine">State of Palestine</a> </button>
+    <button class="btn btn-warning country" id="syria"><a href="https://en.wikipedia.org/wiki/Syria">Syria </a> </button>
+    <button class="btn btn-warning country" id="tajikistan"><a href="https://en.wikipedia.org/wiki/Tajikistan">	Tajikistan</a></button>
+    <button class="btn btn-warning country" id="thailand"><a href="https://en.wikipedia.org/wiki/Thailand"> Thailand </a></button>
+    <button class="btn btn-warning country" id="timor_leste"><a href="https://en.wikipedia.org/wiki/East_Timor">	Timor-Leste </a></button>
+    <button class="btn btn-warning country" id="turkey"><a href="https://en.wikipedia.org/wiki/Turkey">	Turkey </a></button>
+    <button class="btn btn-warning country" id="turkmenistan"><a href="https://en.wikipedia.org/wiki/Turkmenistan">	Turkmenistan </a></button>
+    <button class="btn btn-warning country" id="united_arab_emirates"><a href="https://en.wikipedia.org/wiki/United_Arab_Emirates"> United Arab Emirates </a></button>
+    <button class="btn btn-warning country" id="uzbekistan"><a href="https://en.wikipedia.org/wiki/Uzbekistan"> Uzbekistan</a></button>
+    <button class="btn btn-warning country" id="vietnam"><a href="https://en.wikipedia.org/wiki/Vietnam">	Vietnam</a></button>
+    <button class="btn btn-warning country" id="yemen"><a href="https://en.wikipedia.org/wiki/Yemen"> Yemen</a></button>
+  </div></body></html>
